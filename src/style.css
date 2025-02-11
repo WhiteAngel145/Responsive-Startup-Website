@@ -1,3 +1,37 @@
 :root {
-	
+	font-size: 16px;
+	--primary-color-100: #74C69DFF;
+	--primary-color-75: #74C69DC0;
+	--primary-color-50: #74C69D80;
+	--primary-color-25: #74C69D40;
+	--secondary-color-100: #FFFFFFFF;
+	--secondary-color-75: #FFFFFFC0;
+	--secondary-color-50: #FFFFFF80;
+	--secondary-color-25: #FFFFFF40;
+	--third-color-100: #212529FF;
+	--third-color-75: #212529C0;
+	--third-color-50: #21252980;
+	--third-color-25: #21252940;
+}
+body {
+	margin: 0;
+}
+.site-header-section {
+	background-color: var(--primary-color-100);
+	padding: 54px 104px;
+	color: var(--secondary-color-100);
+}
+
+.subHeading {
+	font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+	font-size: 1.25rem;
+	line-height: 125%;
+}
+
+.logo {
+	font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+	font-size: 2.5rem;
+	line-height: 125%;
+	font-weight: 400;
+
 }

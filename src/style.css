@@ -20,12 +20,15 @@ body {
 	background-color: var(--primary-color-100);
 	padding: 54px 104px;
 	color: var(--secondary-color-100);
+	display: flex;
+	justify-content: space-between;
 }
 
-.subHeading {
+.sub-heading {
 	font-family: 'Work Sans', Arial, Helvetica, sans-serif;
 	font-size: 1.25rem;
 	line-height: 125%;
+	font-weight: 400;
 }
 
 .logo {
@@ -33,5 +36,19 @@ body {
 	font-size: 2.5rem;
 	line-height: 125%;
 	font-weight: 400;
+}
 
+.nav-container {
+	width: 391px;
+}
+
+.nav-container ul {
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+}
+
+.nav-container a {
+	text-decoration: none;
+	color: inherit;
 }

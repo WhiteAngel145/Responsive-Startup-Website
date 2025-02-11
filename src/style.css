@@ -17,6 +17,10 @@
 body {
 	margin: 0;
 }
+
+.site-content {
+	width: 1187px;
+}
 .heading-1 {
 	font-family: 'Crimson Text',Arial, Helvetica, sans-serif;
 	font-size: 2.5rem;
@@ -78,4 +82,16 @@ body {
 	text-align: center;
 	width: 410px;
 
+}
+
+.image-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.portfolio-section {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: space-between;
 }

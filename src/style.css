@@ -16,11 +16,9 @@
 }
 body {
 	margin: 0;
+
 }
 
-.site-content {
-	width: 1187px;
-}
 .heading-1 {
 	font-family: 'Crimson Text',Arial, Helvetica, sans-serif;
 	font-size: 2.5rem;
@@ -42,7 +40,8 @@ body {
 	color: var(--primary-color-100);
 }
 
-.site-header-section {
+.site-header-section,
+.footer-section {
 	background-color: var(--primary-color-100);
 	padding: 54px 104px;
 	color: var(--secondary-color-100);
@@ -51,11 +50,17 @@ body {
 	margin-bottom: 30px;
 }
 
-
+.logo-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 190px;
+}
 .logo {
 	font-family: 'Work Sans', Arial, Helvetica, sans-serif;
 	font-size: 2.5rem;
 	font-weight: 400;
+
 }
 
 .nav-container {
@@ -81,17 +86,37 @@ body {
 .content-header-container {
 	text-align: center;
 	width: 410px;
-
+	margin-bottom: 82px;
 }
 
-.image-container {
-	display: flex;
-	justify-content: space-between;
+.site-content {
+	width: 1180px;
+	margin: auto;
+}
+
+main {
+	display: grid;
+	justify-content: space-around;
 }
 
 .portfolio-section {
-	width: 100%;
 	display: grid;
-	grid-template-columns: 1fr 1fr;
-	justify-content: space-between;
+	grid-template-columns: 570fr 555fr;
+	justify-items: stretch;
+	gap: 50px;
+	margin: 0px;
+}
+
+.image-box {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	width: 570px;
+	margin: 0;
+}
+.social-media {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 246px;
 }

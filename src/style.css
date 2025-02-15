@@ -49,7 +49,15 @@ body {
 	justify-content: space-between;
 	margin-bottom: 30px;
 }
-
+.footer-section {
+	margin-bottom: 0px;
+}
+.header-footer {
+	width: 1180px;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 65px;
+}
 .logo-container {
 	display: flex;
 	justify-content: space-between;
@@ -98,13 +106,28 @@ main {
 	display: grid;
 	justify-content: space-around;
 }
+.more-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 94px;
+}
 
+.more-section button {
+	all: unset;
+	width: 170px;
+	height: 48px;
+	background-color: var(--third-color-100);
+	color: var(--secondary-color-100);
+	border-radius: 5%;
+	text-align: center;
+}
 .portfolio-section {
 	display: grid;
 	grid-template-columns: 570fr 555fr;
 	justify-items: stretch;
 	gap: 50px;
-	margin: 0px;
+	margin-bottom: 60px;
 }
 
 .image-box {

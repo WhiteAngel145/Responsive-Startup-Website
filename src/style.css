@@ -43,7 +43,7 @@ body {
 .site-header-section,
 .footer-section {
 	background-color: var(--primary-color-100);
-	padding: 54px 104px;
+	padding: 54px 0px;
 	color: var(--secondary-color-100);
 	display: flex;
 	justify-content: space-between;
@@ -51,12 +51,13 @@ body {
 }
 .footer-section {
 	margin-bottom: 0px;
+
 }
 .header-footer {
 	width: 1180px;
 	display: flex;
 	justify-content: space-between;
-	margin-left: 65px;
+	margin: auto;
 }
 .logo-container {
 	display: flex;
@@ -125,8 +126,9 @@ main {
 .portfolio-section {
 	display: grid;
 	grid-template-columns: 570fr 555fr;
-	justify-items: stretch;
+	justify-content: space-around;
 	gap: 50px;
+	margin: auto;
 	margin-bottom: 60px;
 }
 
@@ -137,9 +139,27 @@ main {
 	width: 570px;
 	margin: 0;
 }
+.image-box img {
+	width: 100%;
+}
 .social-media {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	width: 246px;
+}
+
+@media (max-width: 1200px) {
+	.site-content {
+		width: 900px;
+	}
+	.header-footer {
+		width: 900px;
+	}
+	.portfolio-section {
+		grid-template-columns: 330px 330px;
+	}
+	.image-box {
+		width: 330px;
+	}
 }

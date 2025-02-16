@@ -148,7 +148,7 @@ main {
 	align-items: center;
 	width: 246px;
 }
-
+/* TODO fix grid boxes and setup other screens */
 @media (max-width: 1200px) {
 	.site-content {
 		width: 900px;

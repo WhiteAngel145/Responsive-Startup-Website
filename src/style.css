@@ -157,9 +157,32 @@ main {
 		width: 900px;
 	}
 	.portfolio-section {
+		grid-template-columns: 420px 420px;
+	}
+	.image-box {
+		width: 420px;
+	}
+}
+@media (max-width: 1024px) {
+	.site-content,
+	.header-footer {
+		width: 700px;
+	}
+	.portfolio-section {
 		grid-template-columns: 330px 330px;
+		gap: 30px;
 	}
 	.image-box {
 		width: 330px;
 	}
+	.content-header-container {
+		margin-bottom: 42px;
+	}
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 568px) {
+
+
 }
